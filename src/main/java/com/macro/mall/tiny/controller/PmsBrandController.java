@@ -53,7 +53,7 @@ public class PmsBrandController {
         return commonResult;
     }
 
-    @ApiOperation("更新指定id品牌信息")
+    @ApiOperation("")
     @RequestMapping(value = "/update/{id}", method = RequestMethod.POST)
     @ResponseBody
     public CommonResult updateBrand(@PathVariable("id") Long id, @RequestBody PmsBrand pmsBrandDto, BindingResult result) {
